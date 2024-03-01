@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+nav h1 {
+  font-style: 32px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav ul a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav__menu {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  nav .nav__menu {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+@media (max-width: 448px) {
+  nav h1 {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=nav.css.map */

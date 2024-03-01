@@ -1,0 +1,99 @@
+.location {
+  .location__title {
+    text-align: center;
+    .location__h2 {
+      font-size: 43px;
+      font-weight: 500;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: black;
+      padding-bottom: 20px;
+      .location__text {
+        margin-bottom: 40px;
+        max-width: 735px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 1px;
+        text-align: center;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+.cards {
+  margin-top: 70px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  .turkiy {
+    padding: 34px 27px;
+    max-width: 362px;
+    height: 150px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    .istanbul {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #000;
+    }
+    .istan__inform {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #000;
+      opacity: 0.6;
+    }
+  }
+}
+
+.offers {
+  margin-bottom: 150px;
+  .offers__h3 {
+    padding-bottom: 50px;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  .new-york {
+    padding: 20px 20px;
+    max-width: 262px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    .liberat {
+      padding-bottom: 8px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      letter-spacing: 0em;
+      color: #000;
+      .new {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: #000;
+        opacity: 60%;
+      }
+    }
+  }
+}
